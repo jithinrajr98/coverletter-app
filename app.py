@@ -222,7 +222,7 @@ def main():
                         st.download_button(
                             label="📥 English PDF",
                             data=pdf_en,
-                            file_name=f"cover_letter_{datetime.now().strftime('%Y%m%d')}_en.pdf",
+                            file_name=f"Jithin_Reghuvaran_CoverLetter.pdf",
                             mime="application/pdf",
                             use_container_width=True
                         )
@@ -237,7 +237,7 @@ def main():
                         st.download_button(
                             label="📥 French PDF",
                             data=pdf_fr,
-                            file_name=f"cover_letter_{datetime.now().strftime('%Y%m%d')}_fr.pdf",
+                            file_name=f"Jithin_Reghuvaran_CoverLetter.pdf",
                             mime="application/pdf",
                             use_container_width=True
                         )
