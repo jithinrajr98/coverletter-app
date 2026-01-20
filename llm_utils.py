@@ -56,10 +56,10 @@ Dear Hiring Team,
 
 [PARAGRAPH 1 - Identity & Confidence (EXACTLY 2 sentences, FULLY DYNAMIC)]
 
-Sentence 1: "I'm a [ROLE from job title] with 5+ years of experience."
+Sentence 1: "I'm a [ROLE from job title] with 6+ years of experience."
 - Extract role from job title (e.g., "AI engineer", "data engineer", "MLOps engineer", "backend engineer")
 
-Sentence 2: "With cumulative experience in [3 DOMAINS matching job requirements], I am confident in my ability to [ACTION tied to job's primary responsibility]."
+Sentence 2: "With experience in [3 DOMAINS matching job requirements], I am confident in my ability to [ACTION tied to job's primary responsibility]."
 - Select 3 experience domains that MATCH the job requirements:
   - For Agentic AI roles: "software development, LLM systems, and AI automation"
   - For Data Engineering roles: "data pipeline development, cloud infrastructure, and analytics platforms"
