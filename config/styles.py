@@ -188,17 +188,25 @@ def apply_custom_styles():
         }}
         
         /* Input fields with glass effect */
-        .stTextArea textarea, .stTextInput input {{
+        .stTextArea textarea,
+        .stTextInput input,
+        [data-testid="stTextArea"] textarea,
+        div[data-baseweb="textarea"] textarea,
+        div[data-baseweb="base-input"] textarea {{
             border-radius: 12px;
             padding: 14px;
-            background: rgba(255,255,255,0.1) !important;
+            background: rgba(30, 30, 30, 0.9) !important;
             border: 1px solid rgba(255,255,255,0.2) !important;
             color: white !important;
+            -webkit-text-fill-color: white !important;
             backdrop-filter: blur(10px);
         }}
-        
-        .stTextArea textarea::placeholder, .stTextInput input::placeholder {{
+
+        .stTextArea textarea::placeholder,
+        .stTextInput input::placeholder,
+        [data-testid="stTextArea"] textarea::placeholder {{
             color: rgba(255,255,255,0.6) !important;
+            -webkit-text-fill-color: rgba(255,255,255,0.6) !important;
         }}
         
         /* Cards with glass morphism */

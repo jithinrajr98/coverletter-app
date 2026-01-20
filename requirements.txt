@@ -105,3 +105,5 @@ wcwidth==0.2.13
 websockets==15.0.1
 youtube-transcript-api==1.2.2
 zstandard==0.24.0
+pdfplumber
+fpdf2
